@@ -9,7 +9,7 @@ blocklist:
 preRun:
   # set of commands to run before running the tests like `yarn install`, `yarn build`
   command:
-    - yarn i
+    - yarn
 
 postMerge:
   pattern:
