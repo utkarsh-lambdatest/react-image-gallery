@@ -1,6 +1,6 @@
 ---
 # supported frameworks: mocha|jest|jasmine
-framework: mocha
+framework: jest
 
 blocklist:
   # format: "<filename>##<suit-name>##<suit-name>##<test-name>"
