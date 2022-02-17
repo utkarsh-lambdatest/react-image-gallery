@@ -13,11 +13,6 @@
     "type": "git",
     "url": "https://github.com/xiaolin/react-image-gallery.git"
   },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "<rootDir>/tests/setupTestFramework.js"
-    ]
-  },
   "style": "styles/css/image-gallery.css",
   "keywords": [
     "react",

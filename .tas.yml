@@ -23,6 +23,9 @@ preMerge:
   pattern:
     - "**/*.test.js"
 
+config: jest.config.js
+
+
 # configure whether to smartSelect test-cases. Default true
 smartRun: true
 
