@@ -13,7 +13,7 @@ preRun:
 
 postMerge:
   pattern:
-    - "./tests/*.test.js"
+    - "**/*.test.js"
   # strategy for trigerring builds for post-merge
   strategy:
     threshold: 1
@@ -21,7 +21,7 @@ postMerge:
 
 preMerge:
   pattern:
-    - "./tests/*.test.js"
+    - "**/*.test.js"
 
 # configure whether to smartSelect test-cases. Default true
 smartRun: true
